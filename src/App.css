@@ -1,4 +1,43 @@
 #root {
   margin: 0 auto;
-  padding: 2rem;
+}
+
+.bg{
+  background-image: url("/portfolio.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* backdrop-filter: blur(3px); */
+}
+
+:root {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+}
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(/fonts/Raleway-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Raleway-Italic";
+  src: url(/Raleway-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: "Cormorant";
+  src: url(/fonts/Cormorant-VariableFont_wght.ttf);
+}
+
+i{
+  font-family: "Raleway-Italic",Arial, Helvetica, sans-serif;
 }
