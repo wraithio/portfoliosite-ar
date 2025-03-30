@@ -1,13 +1,15 @@
 #root {
   margin: 0 auto;
+  background-color:#181b1b;
 }
 
 .bg{
-  background-image: url("/portfolio.jpg");
-  background-position: center;
+  background-image: url("/sheargenius-banner.png");
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
-  backdrop-filter: blur(3px);
+  /* backdrop-filter: blur(3px); */
 }
 
 @font-face {
@@ -30,5 +32,5 @@
 }
 
 i{
-  font-size: 40px;
+  font-size: 60px;
 }

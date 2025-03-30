@@ -2,7 +2,7 @@ import React from "react";
 
 const NavbarComponent = () => {
   return (
-    <nav className="bg-trans border-gray-200 animate-fade2">
+    <nav className="border-gray-200 bg-gradient-to-t from-transparent to-black w-full">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <img src="/insigoutline.png" alt="logo" className="w-16" />
         <button
