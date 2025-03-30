@@ -26,7 +26,7 @@ function App() {
       </section>
       <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg>
       <div className="min-h-[70vh] flex place-items-center">
-        <Reveal>
+        <Reveal3>
           <div className="flex justify-center text-center">
             <h1 className="text-5xl flex font-[Cormarant] my-4 w-[70%] leading-[60px]">
               Passionate and diligent fullstack developer with a proven ability
@@ -34,7 +34,7 @@ function App() {
               scalable solutions.
             </h1>
           </div>
-        </Reveal>
+        </Reveal3>
       </div>
 
       <ShearGeniusComponent />

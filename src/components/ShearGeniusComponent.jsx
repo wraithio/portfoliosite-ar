@@ -14,9 +14,9 @@ const ShearGeniusComponent = () => {
                 <h2 className="text-5xl mb-2">ShearGenius</h2>
               </Reveal>
             </div>
-            <Reveal2>
+            <Reveal3>
               <img src="/SGsplash.png" alt="" className="w-fit" />
-            </Reveal2>
+            </Reveal3>
             <div className="flex justify-center backdrop-blur-sm">
               <div className="w-[90%] p-4">
                 <div className="grid grid-rows-[repeat(2,auto)] grid-cols-2 text-2xl gap-2">
