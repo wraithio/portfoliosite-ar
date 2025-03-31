@@ -1,12 +1,12 @@
 #root {
   margin: 0 auto;
-  background-color:#181b1b;
+  background-color:black;
 }
 
 .bg{
   background-image: url("/sheargenius-banner.png");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: center;
   background-size: cover;
   /* backdrop-filter: blur(3px); */
@@ -14,17 +14,17 @@
 
 @font-face {
   font-family: "Raleway";
-  src: url(/public/fonts/Raleway-VariableFont_wght.ttf);
+  src: url(/fonts/Raleway-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "RalewayItalic";
-  src: url(/public/fonts/Raleway-Italic-VariableFont_wght.ttf);
+  src: url(/fonts/Raleway-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: "Cormorant";
-  src: url(/public/fonts/Cormorant-VariableFont_wght.ttf);
+  src: url(/fonts/Cormorant-VariableFont_wght.ttf);
 }
 
 .italic{
@@ -34,3 +34,62 @@
 i{
   font-size: 60px;
 }
+
+@theme {
+  --animate-wiggle: wiggle 1s ease-in-out infinite;
+  @keyframes wiggle {
+    0%,
+    100% {
+      transform: rotate(-3deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+  }
+}
+
+/* .container {
+  perspective: 800px;
+  width: 200px;
+  height: 200px;
+}
+
+.cube {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.side {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+  opacity: 0.6;
+}
+
+.front {
+  transform: rotateY(0deg) translateZ(100px);
+  background-color: var(--hue-1-transparent);
+}
+.right {
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: var(--hue-2-transparent);
+}
+.back {
+  transform: rotateY(180deg) translateZ(100px);
+  background-color: var(--hue-3-transparent);
+}
+.left {
+  transform: rotateY(-90deg) translateZ(100px);
+  background-color: var(--hue-4-transparent);
+}
+.top {
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: var(--hue-5-transparent);
+}
+.bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+  background-color: var(--hue-6-transparent);
+} */

@@ -10,35 +10,60 @@ import { Reveal2 } from "./components/Reveal2";
 import { Reveal3 } from "./components/Reveal3";
 import { Reveal4 } from "./components/Reveal4";
 import ShearGeniusComponent from "./components/ShearGeniusComponent";
+import CubeComponent from "./components/CubeComponent";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <div className="min-h-screen text-white font-[Raleway]">
-      <section className="fixed w-full top-0">
+    <div className="min-h-screen text-white font-[Raleway] relative z-0">
+      <div className="relative z-10">
         <NavbarComponent />
-      </section>
+      </div>
 
-      <section className="bg-black">
+      <section className="bg-[url(/blackmountain.jpg)] bg-cover">
         <SplashComponent />
-        <ExpComponent />
       </section>
+      <ExpComponent />
       <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg>
-      <div className="min-h-[70vh] flex place-items-center">
-        <Reveal3>
-          <div className="flex justify-center text-center">
-            <h1 className="text-5xl flex font-[Cormarant] my-4 w-[70%] leading-[60px]">
-              Passionate and diligent fullstack developer with a proven ability
-              to optimize systems and a strong drive for crafting efficient,
-              scalable solutions.
-            </h1>
-          </div>
-        </Reveal3>
+
+      <div className="min-h-[70vh] flex  place-items-center relative">
+        <div className="absolute top-0 right-36">
+          <Reveal>
+            <div className="w-[500px] h-[500px] flex place-items-center justify-center">
+
+            <img
+              src="/dotgrid.png"
+              alt="dot grid"
+              className="w-60 animate-[ping_2s_linear_forwards]"
+              />
+              </div>
+          </Reveal>
+        </div>
+
+        <div className="flex flex-col ">
+          <Reveal4>
+            <h4 className="flex gap-1 text-sm ms-12">
+              <b>full•stack de•vel•op•er</b>
+              <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
+              <p className="text-emerald-200">noun</p>1. a software engineer who
+              can design, build, and maintain both the front-end and back-end of
+              a web application or website
+            </h4>
+          </Reveal4>
+          {/* <CubeComponent/> */}
+          <Reveal3>
+            <div className="flex justify-center text-center">
+              <h1 className="text-5xl flex font-[Cormarant] my-4 w-[70%] leading-[60px]">
+                Passionate and diligent fullstack developer with a proven
+                ability to optimize systems and a strong drive for crafting
+                efficient, scalable solutions.
+              </h1>
+            </div>
+          </Reveal3>
+        </div>
       </div>
 
       <ShearGeniusComponent />
-      <Reveal>
+      
         {/* <section>
           <div>
             <iframe
@@ -50,18 +75,18 @@ function App() {
           </div>
         </section> */}
         <section className="w-[90%] justify-self-center my-3">
-          <div className="flex gap-2">
+          <div className="flex gap-1">
             <h3 className="text-xl">view my resume</h3>
             <a
               href="https://tr.ee/C9SrLCD8f7"
               className="cursor-pointer w-fit"
               target="_blank"
             >
-              <h3 className="text-xl text-emerald-200">here</h3>
+              <h3 className="text-xl text-emerald-200 cursor-pointer">here</h3>
             </a>
           </div>
         </section>
-      </Reveal>
+     
 
       <FooterComponent />
     </div>
