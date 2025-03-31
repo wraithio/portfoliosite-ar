@@ -15,12 +15,12 @@ const ExpComponent = () => {
               Languages
             </h3>
             <div className="grid grid-cols-2 grid-rows-3 w-fit gap-3">
-              <i className="devicon-typescript-plain"></i>
-              <i className="devicon-javascript-plain"></i>
-              <i className="devicon-csharp-plain"></i>
-              <i className="devicon-azuresqldatabase-plain"></i>
-              <i className="devicon-html5-plain-wordmark"></i>
-              <i className="devicon-css3-plain-wordmark"></i>
+              <i className="devicon-typescript-plain colored"></i>
+              <i className="devicon-javascript-plain colored"></i>
+              <i className="devicon-csharp-plain colored"></i>
+              <i className="devicon-azuresqldatabase-plain colored"></i>
+              <i className="devicon-html5-plain-wordmark colored"></i>
+              <i className="devicon-css3-plain-wordmark colored"></i>
             </div>
           </div>
           </Reveal>
@@ -29,10 +29,10 @@ const ExpComponent = () => {
               <h3 className="text-xl italic">Frameworks/Libraries</h3>
               <div className="grid grid-rows-3 grid-cols-2 w-fit gap-3">
                 <i className="devicon-nextjs-original-wordmark"></i>
-                <i className="devicon-react-original-wordmark"></i>
-                <i className="devicon-tailwindcss-original"></i>
+                <i className="devicon-react-original-wordmark colored"></i>
+                <i className="devicon-tailwindcss-original colored"></i>
                 <i className="devicon-framermotion-original"></i>
-                <i className="devicon-bootstrap-plain"></i>
+                <i className="devicon-bootstrap-plain colored"></i>
               </div>
             </div>
           </Reveal2>
@@ -40,8 +40,8 @@ const ExpComponent = () => {
             <div className="flex flex-col gap-3">
               <h3 className="text-2xl italic">Services</h3>
               <div className="grid grid-rows-2 w-fit gap-3">
-                <i className="devicon-amazonwebservices-plain-wordmark"></i>
-                <i className="devicon-azure-plain"></i>
+                <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
+                <i className="devicon-azure-plain colored"></i>
               </div>
             </div>
           </Reveal3>
