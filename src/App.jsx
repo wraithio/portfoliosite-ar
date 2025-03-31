@@ -45,8 +45,10 @@ function App() {
               <b>full•stack de•vel•op•er</b>
             </Reveal4>
             <Reveal3>
-              <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
-              <p className="text-emerald-200">noun</p>
+              <div className="flex gap-1">
+                <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
+                <p className="text-emerald-200">noun</p>
+              </div>
             </Reveal3>
             <Reveal2>
               <h4>
