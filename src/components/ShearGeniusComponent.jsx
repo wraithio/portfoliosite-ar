@@ -11,12 +11,22 @@ const ShearGeniusComponent = () => {
       {/* <svg className="bg-gradient-to-b from-[#181b1b] to-transparent w-full"></svg> */}
 
       <Reveal3>
-        <img src="/SGsplash.png" alt="shear genius website" className="w-fit" id="SGsplash"/>
+        <img
+          src="/SGsplash.png"
+          alt="shear genius website"
+          className="w-fit"
+          id="work"
+        />
       </Reveal3>
-      <div className="backdrop-blur-sm bg-gradient-to-b from-transparent to-[#181b1b] py-3">
+      <div className="backdrop-blur-sm bg-gradient-to-b from-transparent to-black py-3">
         <div className="flex justify-center flex-col  justify-self-center w-[90%]">
           <Reveal>
-            <h2 className="text-5xl mb-2">ShearGenius</h2>
+            <div className="flex gap-3">
+              <h2 className="text-5xl mb-2">ShearGenius</h2>
+              <i className="devicon-typescript-plain text-5xl"></i>
+              <i className="devicon-azure-plain text-5xl"></i>
+              <i className="devicon-nextjs-original-wordmark"></i>
+            </div>
           </Reveal>
 
           <div className="w-[90%] p-4">

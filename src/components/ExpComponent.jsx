@@ -12,7 +12,7 @@ const ExpComponent = () => {
             <div className="grid grid-cols-3">
         <Reveal>
               <div className="flex flex-col gap-3">
-                <h3 className="text-2xl italic">Languages</h3>
+                <h3 className="text-2xl italic" id="about">Languages</h3>
                 <div className="grid grid-cols-2 grid-rows-3 w-fit gap-3">
                   <i className="devicon-typescript-plain"></i>
                   <i className="devicon-javascript-plain"></i>

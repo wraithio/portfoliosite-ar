@@ -11,6 +11,7 @@ import { Reveal3 } from "./components/Reveal3";
 import { Reveal4 } from "./components/Reveal4";
 import ShearGeniusComponent from "./components/ShearGeniusComponent";
 import CubeComponent from "./components/CubeComponent";
+import CardsComponent from "./components/CardsComponent";
 
 function App() {
   return (
@@ -26,22 +27,21 @@ function App() {
       <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg>
 
       <div className="min-h-[70vh] flex  place-items-center relative">
-        <div className="absolute top-0 right-36">
+        <div className="absolute top-0 right-24">
           <Reveal>
             <div className="w-[500px] h-[500px] flex place-items-center justify-center">
-
-            <img
-              src="/dotgrid.png"
-              alt="dot grid"
-              className="w-60 animate-[ping_2s_linear_forwards]"
+              <img
+                src="/dotgrid.png"
+                alt="dot grid"
+                className="w-60 animate-[ping_6s_infinite_linear]"
               />
-              </div>
+            </div>
           </Reveal>
         </div>
 
         <div className="flex flex-col ">
           <Reveal4>
-            <h4 className="flex gap-1 text-sm ms-12">
+            <h4 className="flex gap-1 text-md ms-12">
               <b>full•stack de•vel•op•er</b>
               <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
               <p className="text-emerald-200">noun</p>1. a software engineer who
@@ -63,8 +63,8 @@ function App() {
       </div>
 
       <ShearGeniusComponent />
-      
-        {/* <section>
+
+      {/* <section>
           <div>
             <iframe
               class="pdf"
@@ -74,20 +74,39 @@ function App() {
             ></iframe>
           </div>
         </section> */}
-        <section className="w-[90%] justify-self-center my-3">
-          <div className="flex gap-1">
-            <h3 className="text-xl">view my resume</h3>
-            <a
-              href="https://tr.ee/C9SrLCD8f7"
-              className="cursor-pointer w-fit"
-              target="_blank"
-            >
-              <h3 className="text-xl text-emerald-200 cursor-pointer">here</h3>
-            </a>
-          </div>
-        </section>
-     
 
+      <section className="h-[70vh] flex place-items-center justify-center">
+        <CardsComponent />
+      </section>
+
+      <section className="w-[90%] my-24 justify-self-center">
+        <Reveal>
+          <h2 className="text-5xl mb-2" id="contact">Connect With Me</h2>
+        </Reveal>
+        <div className="flex gap-3">
+          <a href="https://github.com/wraithio">
+            <i className="devicon-github-original text-white"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/aaron-robinson-dev/">
+            <i className="devicon-linkedin-plain text-white"></i>
+          </a>
+          <a href="mailto:aarmon5@gmail.com">
+            <img src="/mail.svg" alt="mail icon" className="w-16" />
+          </a>
+        </div>
+        <div className="flex gap-1">
+          <Reveal2>
+            <h3 className="text-xl">view my resume</h3>
+          </Reveal2>
+          <a
+            href="https://tr.ee/C9SrLCD8f7"
+            className="cursor-pointer w-fit"
+            target="_blank"
+          >
+            <h3 className="text-xl text-emerald-200 cursor-pointer">here</h3>
+          </a>
+        </div>
+      </section>
       <FooterComponent />
     </div>
   );

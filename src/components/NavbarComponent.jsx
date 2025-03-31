@@ -41,15 +41,7 @@ const NavbarComponent = () => {
             </li>
             <li>
               <a
-                href="#SGsplash"
-                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
-              >
-                Work
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+                href="#about"
                 className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
               >
                 About
@@ -57,7 +49,15 @@ const NavbarComponent = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#work"
+                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
+              >
+                Work
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
                 className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
               >
                 Contact
