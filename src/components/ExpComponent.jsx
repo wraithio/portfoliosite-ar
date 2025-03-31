@@ -6,32 +6,33 @@ import { Reveal3 } from "./Reveal3";
 
 const ExpComponent = () => {
   return (
-    <div className="flex justify-center mx-24">
-      <div className="w-[50%]">
+    <div className="flex xl:flex-row xl:gap-0 gap-8 flex-col justify-center mx-24">
+      <div className="xl:w-[50%]">
         <div className="grid grid-cols-3">
           <Reveal>
-            <div className="flex flex-col gap-3">
-              <h3 className="text-2xl italic" id="about">
-                Languages
-              </h3>
-              <div className="grid grid-cols-2 grid-rows-3 w-fit gap-3">
-                <i className="devicon-typescript-plain"></i>
-                <i className="devicon-javascript-plain"></i>
-                <i className="devicon-csharp-plain"></i>
-                <i className="devicon-azuresqldatabase-plain"></i>
-                <i className="devicon-html5-plain-wordmark"></i>
-                <i className="devicon-css3-plain-wordmark"></i>
-              </div>
+          <div className="flex flex-col gap-3">
+            <h3 className="text-2xl italic" id="about">
+              Languages
+            </h3>
+            <div className="grid grid-cols-2 grid-rows-3 w-fit gap-3">
+              <i className="devicon-typescript-plain"></i>
+              <i className="devicon-javascript-plain"></i>
+              <i className="devicon-csharp-plain"></i>
+              <i className="devicon-azuresqldatabase-plain"></i>
+              <i className="devicon-html5-plain-wordmark"></i>
+              <i className="devicon-css3-plain-wordmark"></i>
             </div>
+          </div>
           </Reveal>
           <Reveal2>
             <div className="flex flex-col gap-3">
-              <h3 className="text-2xl italic">Frameworks</h3>
-              <div className="grid grid-rows-2 grid-cols-2 w-fit gap-3">
+              <h3 className="text-xl italic">Frameworks/Libraries</h3>
+              <div className="grid grid-rows-3 grid-cols-2 w-fit gap-3">
                 <i className="devicon-nextjs-original-wordmark"></i>
                 <i className="devicon-react-original-wordmark"></i>
                 <i className="devicon-tailwindcss-original"></i>
                 <i className="devicon-framermotion-original"></i>
+                <i className="devicon-bootstrap-plain"></i>
               </div>
             </div>
           </Reveal2>
@@ -46,7 +47,7 @@ const ExpComponent = () => {
           </Reveal3>
         </div>
       </div>
-      <div className="w-[50%]">
+      <div className="xl:w-[50%]">
         <Reveal4 delay={4}>
           <div className="flex flex-col gap-3">
             <h3 className="text-2xl italic ">Education</h3>
