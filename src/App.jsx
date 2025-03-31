@@ -20,7 +20,7 @@ function App() {
         <NavbarComponent />
       </div>
 
-      <section className="bg-[url(/blackmountain.jpg)] bg-cover">
+      <section>
         <SplashComponent />
       </section>
       <ExpComponent />

@@ -3,7 +3,7 @@ import { Reveal } from "./Reveal";
 
 const SplashComponent = () => {
   return (
-    <section className="cursor-default min-h-[120vh] flex flex-col place-content-center justify-self-center">
+    <section className="cursor-default min-h-[110vh] flex flex-col place-items-center bg-[url(/blackmountain.jpg)] bg-cover justify-center">
       <Reveal>
         <div className="flex justify-center gap-2 mt-24 hover:cursor-default">
           <img

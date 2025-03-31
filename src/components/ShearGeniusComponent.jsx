@@ -14,7 +14,7 @@ const ShearGeniusComponent = () => {
         <img
           src="/SGsplash.png"
           alt="shear genius website"
-          className="w-fit"
+          className="w-fit px-3"
           id="work"
         />
       </Reveal3>
