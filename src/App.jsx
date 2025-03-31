@@ -39,8 +39,8 @@ function App() {
           </Reveal>
         </div>
 
-        <div className="flex flex-col ">
-          <div className="flex gap-1 text-md ms-12">
+        <div className="flex flex-col ms-24">
+          <div className="grid grid-cols-[auto_auto_auto] gap-1 xl:text-[17px] lg:text-sm md:text-[12px] text-[10px] w-fit">
             <Reveal4>
               <b>full•stack de•vel•op•er</b>
             </Reveal4>

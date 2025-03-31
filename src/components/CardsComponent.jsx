@@ -8,7 +8,7 @@ const CardsComponent = () => {
     <div className="flex justify-evenly gap-12">
     
       <Card
-        className="max-w-sm"
+        className="xl:max-w-sm max-w-[275px]"
         imgAlt="Vision Images"
         imgSrc={hover ? "/redesign2.png" : "redesign.png"}
         onMouseEnter={() => setHover(true)}
@@ -22,7 +22,7 @@ const CardsComponent = () => {
           <i className="devicon-css3-plain-wordmark colored text-4xl"></i>
           <i className="devicon-framermotion-original colored text-4xl"></i>
         </div>
-        <p className="font-normal text-gray-700 dark:text-gray-400">
+        <p className="font-normal text-gray-700 dark:text-gray-400 xl:text-base text-sm">
           Conceptualized, implemented, and updated an existing website into a
           visually engaging, responsive website design that showcased the
           photographer's portfolio and elevated their online presence.
@@ -30,7 +30,7 @@ const CardsComponent = () => {
       </Card>
       
       <Card
-        className="max-w-sm"
+        className="xl:max-w-sm max-w-[275px]"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc={hover ? "/cookware2.png" : "/cookware.png"}
         onMouseEnter={() => setHover(true)}
@@ -50,7 +50,7 @@ const CardsComponent = () => {
       </Card>
 
       <Card
-        className="max-w-sm"
+        className="xl:max-w-sm max-w-[275px]"
         imgAlt="Weather application"
         imgSrc={hover ? "/weatherapp2.png" : "/weatherapp.png"}
         onMouseEnter={() => setHover(true)}
