@@ -40,17 +40,24 @@ function App() {
         </div>
 
         <div className="flex flex-col ">
-          <Reveal4>
-            <h4 className="flex gap-1 text-md ms-12">
+          <div className="flex gap-1 text-md ms-12">
+            <Reveal4>
               <b>full•stack de•vel•op•er</b>
+            </Reveal4>
+            <Reveal3>
               <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
-              <p className="text-emerald-200">noun</p>1. a software engineer who
-              can design, build, and maintain both the front-end and back-end of
-              a web application or website
-            </h4>
-          </Reveal4>
+              <p className="text-emerald-200">noun</p>
+            </Reveal3>
+            <Reveal2>
+              <h4>
+                {" "}
+                1. a software engineer who can design, build, and maintain both
+                the front-end and back-end of a web application or website
+              </h4>
+            </Reveal2>
+          </div>
           {/* <CubeComponent/> */}
-          <Reveal3>
+          <Reveal>
             <div className="flex justify-center text-center">
               <h1 className="text-5xl flex font-[Cormarant] my-4 w-[70%] leading-[60px]">
                 Passionate and diligent fullstack developer with a proven
@@ -58,7 +65,7 @@ function App() {
                 efficient, scalable solutions.
               </h1>
             </div>
-          </Reveal3>
+          </Reveal>
         </div>
       </div>
 
@@ -81,7 +88,9 @@ function App() {
 
       <section className="mx-24 my-24">
         <Reveal>
-          <h2 className="text-5xl mb-2" id="contact">Connect With Me</h2>
+          <h2 className="text-5xl mb-2" id="contact">
+            Connect With Me
+          </h2>
         </Reveal>
         <div className="flex gap-3">
           <a href="https://github.com/wraithio">
