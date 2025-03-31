@@ -6,8 +6,8 @@ import { Reveal3 } from "./Reveal3";
 
 const ExpComponent = () => {
   return (
-    <section className="w-[90%] justify-self-center py-10">
-      <div className="flex justify-center">
+    
+      <div className="flex justify-center mx-24">
           <div className="w-[50%]">
             <div className="grid grid-cols-3">
         <Reveal>
@@ -80,7 +80,7 @@ const ExpComponent = () => {
         </Reveal4>
           </div>
       </div>
-    </section>
+   
   );
 };
 

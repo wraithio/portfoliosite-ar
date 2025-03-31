@@ -19,7 +19,7 @@ const ShearGeniusComponent = () => {
         />
       </Reveal3>
       <div className="backdrop-blur-sm bg-gradient-to-b from-transparent to-black py-3">
-        <div className="flex justify-center flex-col  justify-self-center w-[90%]">
+        <div className="flex justify-center flex-col  mx-24">
           <Reveal>
             <div className="flex gap-3">
               <h2 className="text-5xl mb-2">ShearGenius</h2>

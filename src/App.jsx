@@ -79,7 +79,7 @@ function App() {
         <CardsComponent />
       </section>
 
-      <section className="w-[90%] my-24 justify-self-center">
+      <section className="mx-24 my-24">
         <Reveal>
           <h2 className="text-5xl mb-2" id="contact">Connect With Me</h2>
         </Reveal>
