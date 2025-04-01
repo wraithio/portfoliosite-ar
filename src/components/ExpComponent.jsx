@@ -10,23 +10,23 @@ const ExpComponent = () => {
       <div className="xl:w-[50%]">
         <div className="grid grid-cols-3">
           <Reveal>
-          <div className="flex flex-col gap-3">
-            <h3 className="text-2xl italic" id="about">
-              Languages
-            </h3>
-            <div className="grid grid-cols-2 grid-rows-3 w-fit gap-3">
-              <i className="devicon-typescript-plain colored"></i>
-              <i className="devicon-javascript-plain colored"></i>
-              <i className="devicon-csharp-plain colored"></i>
-              <i className="devicon-azuresqldatabase-plain colored"></i>
-              <i className="devicon-html5-plain-wordmark colored"></i>
-              <i className="devicon-css3-plain-wordmark colored"></i>
+            <div className="flex flex-col gap-3 relative z-30">
+              <h3 className="text-2xl" id="about">
+                Languages
+              </h3>
+              <div className="grid grid-cols-2 grid-rows-3 w-fit gap-3">
+                <i className="devicon-typescript-plain colored"></i>
+                <i className="devicon-javascript-plain colored"></i>
+                <i className="devicon-csharp-plain colored"></i>
+                <i className="devicon-azuresqldatabase-plain colored"></i>
+                <i className="devicon-html5-plain-wordmark colored"></i>
+                <i className="devicon-css3-plain-wordmark colored"></i>
+              </div>
             </div>
-          </div>
           </Reveal>
           <Reveal2>
             <div className="flex flex-col gap-3">
-              <h3 className="text-xl italic">Frameworks/Libraries</h3>
+              <h3 className="text-xl">Frameworks/Libraries</h3>
               <div className="grid grid-rows-3 grid-cols-2 w-fit gap-3">
                 <i className="devicon-nextjs-original-wordmark"></i>
                 <i className="devicon-react-original-wordmark colored"></i>
@@ -38,7 +38,7 @@ const ExpComponent = () => {
           </Reveal2>
           <Reveal3>
             <div className="flex flex-col gap-3">
-              <h3 className="text-2xl italic">Services</h3>
+              <h3 className="text-2xl">Services</h3>
               <div className="grid grid-rows-2 w-fit gap-3">
                 <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
                 <i className="devicon-azure-plain colored"></i>
@@ -50,12 +50,12 @@ const ExpComponent = () => {
       <div className="xl:w-[50%]">
         <Reveal4 delay={4}>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl italic ">Education</h3>
+            <h3 className="text-2xl ">Education</h3>
             <div>
               <h3 className="text-2xl">
                 <b>Cosumnes River College</b>
               </h3>
-              <h3 className="itali text-xlc">
+              <h3 className="itali text-xl">
                 AS in Computer Science (CIS) - Spring 2025
               </h3>
             </div>

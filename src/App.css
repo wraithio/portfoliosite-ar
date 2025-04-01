@@ -1,3 +1,6 @@
+@import "flowbite/src/themes/default";
+@plugin "flowbite/plugin";
+
 #root {
   margin: 0 auto;
   background-color:black;

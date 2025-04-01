@@ -16,7 +16,7 @@ import CardsComponent from "./components/CardsComponent";
 function App() {
   return (
     <div className="min-h-screen text-white font-[Raleway] relative z-0">
-      <div className="relative z-10">
+      <div className="relative z-30">
         <NavbarComponent />
       </div>
 
@@ -60,7 +60,7 @@ function App() {
           </div>
           {/* <CubeComponent/> */}
           <Reveal>
-            <div className="flex justify-center text-center">
+            <div className="flex justify-center">
               <h1 className="text-5xl flex font-[Cormarant] my-4 w-[70%] leading-[60px]">
                 Passionate and diligent fullstack developer with a proven
                 ability to optimize systems and a strong drive for crafting

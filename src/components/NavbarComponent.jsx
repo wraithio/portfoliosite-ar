@@ -2,8 +2,8 @@ import React from "react";
 
 const NavbarComponent = () => {
   return (
-    <nav className="fixed top-0 overflow-hidden bg-gradient-to-t from-transparent to-black w-full">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <nav className="fixed top-0 overflow-hidden bg-gradient-to-t from-transparent to-black w-full backdrop-blur-[1px]">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
         <img src="/insigoutline.png" alt="logo" className="w-16" />
         <button
           data-collapse-toggle="navbar-default"
