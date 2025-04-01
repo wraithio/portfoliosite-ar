@@ -3,7 +3,7 @@ import React from "react";
 const NavbarComponent = () => {
   return (
     <nav className="fixed top-0 overflow-hidden bg-gradient-to-t from-transparent to-black w-full backdrop-blur-[1px]">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-2">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <img src="/insigoutline.png" alt="logo" className="w-16" />
         <button
           data-collapse-toggle="navbar-default"
@@ -30,8 +30,8 @@ const NavbarComponent = () => {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
-            <li>
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+            <li className="m-0">
               <a
                 href="#"
                 className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
