@@ -32,7 +32,7 @@ const NavbarComponent = () => {
           </svg>
         </button>
         <div className={mobile ?"block w-full" :"hidden w-full md:block md:w-auto"} id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse backdrop-blur-sm md:mt-0 md:border-0">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:backdrop-blur-none backdrop-blur-sm md:mt-0 md:border-0">
             <li className="m-0">
               <a
                 href="#"
