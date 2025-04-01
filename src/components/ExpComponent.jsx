@@ -10,7 +10,7 @@ const ExpComponent = () => {
       <div className="xl:w-[50%]">
         <div className="grid grid-cols-3">
           <Reveal>
-            <div className="flex flex-col gap-3 relative z-30">
+            <div className="flex flex-col gap-3">
               <h3 className="text-2xl" id="about">
                 Languages
               </h3>
