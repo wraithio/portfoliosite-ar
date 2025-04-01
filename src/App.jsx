@@ -84,7 +84,7 @@ function App() {
           </div>
         </section> */}
 
-      <section className="h-[70vh] flex place-items-center justify-center">
+      <section className="md:h-[70vh] h-fit flex place-items-center justify-center">
         <CardsComponent />
       </section>
 

@@ -5,10 +5,10 @@ import { div } from "motion/react-client";
 const CardsComponent = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div className="flex justify-evenly gap-12">
+    <div className="flex md:flex-row flex-col justify-evenly gap-12">
     
       <Card
-        className="xl:max-w-sm max-w-[275px]"
+        className="xl:max-w-sm md:max-w-[275px] max-w-[450px]"
         imgAlt="Vision Images"
         imgSrc={hover ? "/redesign2.png" : "redesign.png"}
         onMouseEnter={() => setHover(true)}
@@ -30,7 +30,7 @@ const CardsComponent = () => {
       </Card>
       
       <Card
-        className="xl:max-w-sm max-w-[275px]"
+        className="xl:max-w-sm md:max-w-[275px] max-w-[450px]"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc={hover ? "/cookware2.png" : "/cookware.png"}
         onMouseEnter={() => setHover(true)}
@@ -50,7 +50,7 @@ const CardsComponent = () => {
       </Card>
 
       <Card
-        className="xl:max-w-sm max-w-[275px]"
+        className="xl:max-w-sm md:max-w-[275px] max-w-[450px]"
         imgAlt="Weather application"
         imgSrc={hover ? "/weatherapp2.png" : "/weatherapp.png"}
         onMouseEnter={() => setHover(true)}

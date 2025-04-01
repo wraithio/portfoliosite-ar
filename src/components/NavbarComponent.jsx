@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const NavbarComponent = () => {
+  const[mobile,setMobile] = useState(false)
   return (
     <nav className="fixed top-0 overflow-hidden bg-gradient-to-t from-transparent to-black w-full backdrop-blur-[1px]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -11,6 +12,7 @@ const NavbarComponent = () => {
           className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden focus:outline-none focus:ring-2 focus:ring-gray-200"
           aria-controls="navbar-default"
           aria-expanded="false"
+          onClick={() => setMobile(!mobile)}
         >
           <span className="sr-only">Open main menu</span>
           <svg
@@ -29,8 +31,8 @@ const NavbarComponent = () => {
             />
           </svg>
         </button>
-        <div className="hidden w-full md:block md:w-auto" id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
+        <div className={mobile ?"block w-full" :"hidden w-full md:block md:w-auto"} id="navbar-default">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4  rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse backdrop-blur-sm md:mt-0 md:border-0">
             <li className="m-0">
               <a
                 href="#"
