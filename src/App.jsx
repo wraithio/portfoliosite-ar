@@ -24,23 +24,26 @@ function App() {
         <SplashComponent />
       </section>
       <ExpComponent />
-      <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg>
+      {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
-      <div className="min-h-[70vh] flex  place-items-center relative">
-        <div className="absolute top-0 right-24">
+      <div className="md:min-h-[100vh] min-h-[50vh] flex  place-items-end relative">
+        <div className="absolute md:top-36 top-16 md:right-24 right-8">
           <Reveal>
-            <div className="w-[500px] h-[500px] flex place-items-center justify-center">
+            <div className="md:w-[200px] md:h-[200px] h-[100px] w-[100px] flex place-items-center justify-center">
               <img
                 src="/dotgrid.png"
                 alt="dot grid"
-                className="w-60 animate-[ping_6s_infinite_linear]"
+                className="md:w-20 w-12 animate-[ping_6s_infinite_linear]"
               />
             </div>
           </Reveal>
         </div>
 
-        <div className="flex flex-col ms-24">
-          <div className="grid grid-cols-[auto_auto_auto] gap-1 xl:text-[17px] lg:text-sm md:text-[12px] text-[10px] w-fit">
+        <div className="flex flex-col">
+          <div className="flex justify-center">
+
+        
+          <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
             <Reveal4>
               <b>full•stack de•vel•op•er</b>
             </Reveal4>
@@ -58,10 +61,11 @@ function App() {
               </h4>
             </Reveal2>
           </div>
+            </div>
           {/* <CubeComponent/> */}
           <Reveal>
             <div className="flex justify-center">
-              <h1 className="text-5xl flex font-[Cormarant] my-4 w-[70%] leading-[60px]">
+              <h1 className="md:text-5xl text-xl flex font-[Cormarant] my-4 md:w-[70%] mx-5 md:leading-[60px]">
                 Passionate and diligent fullstack developer with a proven
                 ability to optimize systems and a strong drive for crafting
                 efficient, scalable solutions.
@@ -84,9 +88,9 @@ function App() {
           </div>
         </section> */}
 
-      <section className="md:h-[70vh] h-fit flex place-items-center justify-center">
+    
         <CardsComponent />
-      </section>
+     
 
       <section className="mx-24 my-24">
         <Reveal>

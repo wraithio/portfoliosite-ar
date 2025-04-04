@@ -5,7 +5,7 @@ import { div } from "motion/react-client";
 const CardsComponent = () => {
   const [hover, setHover] = useState(false);
   return (
-    <div className="flex md:flex-row flex-col justify-evenly gap-12">
+    <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center md:gap-2 gap-12">
     
       <Card
         className="xl:max-w-sm md:max-w-[275px] max-w-[450px]"

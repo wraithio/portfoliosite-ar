@@ -19,7 +19,7 @@ const ShearGeniusComponent = () => {
         />
       </Reveal3>
       <div className="backdrop-blur-sm bg-gradient-to-b from-transparent to-black py-3">
-        <div className="flex justify-center flex-col  mx-24">
+        <div className="flex justify-center flex-col  md:mx-24 mx-5">
           <Reveal>
             <div className="flex gap-3">
               <h2 className="text-5xl mb-2">ShearGenius</h2>
@@ -30,7 +30,7 @@ const ShearGeniusComponent = () => {
           </Reveal>
 
           <div className="w-[90%] p-4">
-            <div className="grid grid-rows-[repeat(2,auto)] grid-cols-2 text-2xl gap-2">
+            <div className="grid grid-rows-[repeat(2,auto)] grid-cols-2 md:text-2xl gap-2">
               <Reveal2>
                 <li>
                   Created a database for login functionality, account

@@ -38,6 +38,12 @@ i{
   font-size: 60px;
 }
 
+@media screen and (max-width:900px){
+  i{
+    font-size: 40px;
+  }
+}
+
 @theme {
   --animate-wiggle: wiggle 1s ease-in-out infinite;
   @keyframes wiggle {
