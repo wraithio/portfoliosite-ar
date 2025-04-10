@@ -26,21 +26,21 @@ function App() {
       <ExpComponent />
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
-      <div className="md:min-h-[100vh] min-h-[50vh] flex  place-items-end relative">
-        <div className="absolute md:top-36 top-16 md:right-24 right-8">
+      <div className="md:min-h-[100vh] min-h-[40vh] flex  place-items-end relative">
+
+        <div className="flex flex-col">
+          <div className="flex justify-center relative">
+        <div className="absolute top-0 md:right-[15%] right-0">
           <Reveal>
-            <div className="md:w-[200px] md:h-[200px] h-[100px] w-[100px] flex place-items-center justify-center">
+            <div className="w-[150px] h-[150px] flex place-items-center justify-center">
               <img
                 src="/dotgrid.png"
                 alt="dot grid"
-                className="md:w-20 w-12 animate-[ping_6s_infinite_linear]"
+                className="w-20 animate-[ping_3s_infinite_linear]"
               />
             </div>
           </Reveal>
         </div>
-
-        <div className="flex flex-col">
-          <div className="flex justify-center">
 
         
           <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
@@ -88,10 +88,8 @@ function App() {
           </div>
         </section> */}
 
-    
         <CardsComponent />
      
-
       <section className="mx-24 my-24">
         <Reveal>
           <h2 className="text-5xl mb-2" id="contact">
