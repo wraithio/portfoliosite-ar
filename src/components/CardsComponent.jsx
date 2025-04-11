@@ -8,7 +8,7 @@ const CardsComponent = () => {
     <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center md:gap-2 gap-12">
     
       <Card
-        className="xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
+        className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Vision Images"
         imgSrc={hover ? "/redesign2.png" : "redesign.png"}
         onMouseEnter={() => setHover(true)}
@@ -30,7 +30,7 @@ const CardsComponent = () => {
       </Card>
       
       <Card
-        className="xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
+        className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
         imgSrc={hover ? "/cookware2.png" : "/cookware.png"}
         onMouseEnter={() => setHover(true)}
@@ -50,7 +50,7 @@ const CardsComponent = () => {
       </Card>
 
       <Card
-        className="xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
+        className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Weather application"
         imgSrc={hover ? "/weatherapp2.png" : "/weatherapp.png"}
         onMouseEnter={() => setHover(true)}

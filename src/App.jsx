@@ -26,7 +26,7 @@ function App() {
       <ExpComponent />
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
-      <div className="md:min-h-[100vh] min-h-[40vh] flex  place-items-end relative">
+      <div className="md:min-h-[60vh] min-h-[40vh] flex  place-items-end relative">
 
         <div className="flex flex-col">
           <div className="flex justify-center relative">
