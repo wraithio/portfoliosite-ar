@@ -55,7 +55,7 @@ const ExpComponent = () => {
               <h3 className="text-2xl">
                 <b>Cosumnes River College</b>
               </h3>
-              <h3 className="itali md:text-xl">
+              <h3 className="md:text-xl">
                 AS in Computer Science (CIS) - Spring 2025
               </h3>
             </div>
@@ -63,7 +63,7 @@ const ExpComponent = () => {
               <h3 className="text-2xl">
                 <b>Sacramento State</b>
               </h3>
-              <h3 className="italic md:text-xl">
+              <h3 className="md:text-xl">
                 pursuing BS in Computer Science - Spring 2026
               </h3>
             </div>
@@ -71,7 +71,7 @@ const ExpComponent = () => {
               <h3 className="text-2xl">
                 <b>Codestack Academy</b>
               </h3>
-              <h3 className="italic md:text-xl">
+              <h3 className="md:text-xl">
                 certificate in software development through San Joaquin County
                 Office of Education
               </h3>
@@ -80,7 +80,7 @@ const ExpComponent = () => {
               <h3 className="text-2xl">
                 <b>AWS Foundational Cloud Practitioner Certificate</b>
               </h3>
-              <h3 className="italic md:text-xl">
+              <h3 className="md:text-xl">
                 demonstrates foundational knowledge of AWS Cloud concepts,
                 including core services, security, architecture, billing, and
                 support
