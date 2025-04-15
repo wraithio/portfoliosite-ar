@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import NavbarComponent from "./components/NavbarComponent";
 import SplashComponent from "./components/SplashComponent";
@@ -10,7 +9,6 @@ import { Reveal2 } from "./components/Reveal2";
 import { Reveal3 } from "./components/Reveal3";
 import { Reveal4 } from "./components/Reveal4";
 import ShearGeniusComponent from "./components/ShearGeniusComponent";
-import CubeComponent from "./components/CubeComponent";
 import CardsComponent from "./components/CardsComponent";
 
 function App() {
@@ -26,7 +24,7 @@ function App() {
       <ExpComponent />
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
-      <div className="md:min-h-[80vh] min-h-[50vh] flex place-items-end relative mt-4">
+      <div className="md:min-h-[60vh] min-h-[40vh] flex place-items-center relative mt-4">
 
         <div className="flex flex-col">
           <div className="flex justify-center relative">

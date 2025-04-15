@@ -1,5 +1,5 @@
 
-import { Footer, FooterBrand, FooterCopyright, FooterDivider, FooterLink, FooterLinkGroup } from "flowbite-react";
+import { Footer, FooterCopyright, FooterDivider } from "flowbite-react";
 
 export function FooterComponent() {
   return (

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Card } from "flowbite-react";
-import { div } from "motion/react-client";
 
 const CardsComponent = () => {
   const [hover, setHover] = useState(false);
