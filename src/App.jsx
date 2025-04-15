@@ -26,7 +26,7 @@ function App() {
       <ExpComponent />
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
-      <div className="md:min-h-[60vh] min-h-[40vh] flex  place-items-end relative">
+      <div className="md:min-h-[80vh] min-h-[50vh] flex place-items-end relative mt-4">
 
         <div className="flex flex-col">
           <div className="flex justify-center relative">
@@ -54,7 +54,7 @@ function App() {
               </div>
             </Reveal3>
             <Reveal2>
-              <h4>
+              <h4 className="text-left">
                 {" "}
                 1. a software engineer who can design, build, and maintain both
                 the front-end and back-end of a web application or website
@@ -65,7 +65,7 @@ function App() {
           {/* <CubeComponent/> */}
           <Reveal>
             <div className="flex justify-center">
-              <h1 className="md:text-5xl text-xl flex font-[Cormarant] my-4 md:w-[70%] mx-5 md:leading-[60px]">
+              <h1 className="md:text-3xl text-xl flex font-[Cormarant] my-4 md:w-[70%] mx-5 md:leading-[40px]">
                 Passionate and diligent fullstack developer with a proven
                 ability to optimize systems and a strong drive for crafting
                 efficient, scalable solutions.

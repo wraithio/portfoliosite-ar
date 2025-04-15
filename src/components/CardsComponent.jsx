@@ -4,6 +4,8 @@ import { div } from "motion/react-client";
 
 const CardsComponent = () => {
   const [hover, setHover] = useState(false);
+  const [hover2, setHover2] = useState(false);
+  const [hover3, setHover3] = useState(false);
   return (
     <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center md:gap-2 gap-12">
     
@@ -32,9 +34,9 @@ const CardsComponent = () => {
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
-        imgSrc={hover ? "/cookware2.png" : "/cookware.png"}
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
+        imgSrc={hover2 ? "/cookware2.png" : "/cookware.png"}
+        onMouseEnter={() => setHover2(true)}
+        onMouseLeave={() => setHover2(false)}
       >
         <div className="flex gap-2">
           <h5 className="text-2xl font-bold tracking-tight text-white">
@@ -52,9 +54,9 @@ const CardsComponent = () => {
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Weather application"
-        imgSrc={hover ? "/weatherapp2.png" : "/weatherapp.png"}
-        onMouseEnter={() => setHover(true)}
-        onMouseLeave={() => setHover(false)}
+        imgSrc={hover3 ? "/weatherapp2.png" : "/weatherapp.png"}
+        onMouseEnter={() => setHover3(true)}
+        onMouseLeave={() => setHover3(false)}
       >
         <div className="flex gap-2">
           <h5 className="text-2xl font-bold tracking-tight text-white">

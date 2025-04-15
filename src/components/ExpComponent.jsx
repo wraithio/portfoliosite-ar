@@ -52,35 +52,35 @@ const ExpComponent = () => {
           <div className="flex flex-col gap-3">
             <h3 className="text-2xl md:block hidden">Education</h3>
             <div>
-              <h3 className="text-2xl">
+              <h3 className="md:text-2xl text-base">
                 <b>Cosumnes River College</b>
               </h3>
-              <h3 className="md:text-xl">
+              <h3 className="md:text-xl text-sm">
                 AS in Computer Science (CIS) - Spring 2025
               </h3>
             </div>
             <div>
-              <h3 className="text-2xl">
+              <h3 className="md:text-2xl text-base">
                 <b>Sacramento State</b>
               </h3>
-              <h3 className="md:text-xl">
+              <h3 className="md:text-xl text-sm">
                 pursuing BS in Computer Science - Spring 2026
               </h3>
             </div>
             <div>
-              <h3 className="text-2xl">
+              <h3 className="md:text-2xl text-base">
                 <b>Codestack Academy</b>
               </h3>
-              <h3 className="md:text-xl">
+              <h3 className="md:text-xl text-sm">
                 certificate in software development through San Joaquin County
                 Office of Education
               </h3>
             </div>
             <div>
-              <h3 className="text-2xl">
+              <h3 className="md:text-2xl text-base">
                 <b>AWS Foundational Cloud Practitioner Certificate</b>
               </h3>
-              <h3 className="md:text-xl">
+              <h3 className="md:text-xl text-sm">
                 demonstrates foundational knowledge of AWS Cloud concepts,
                 including core services, security, architecture, billing, and
                 support
