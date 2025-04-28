@@ -14,7 +14,7 @@ const NavbarComponent = () => {
           aria-expanded="false"
           onClick={() => setMobile(!mobile)}
         >
-          <span className="sr-only">Open main menu</span>
+          <span className="sr-only">Menu</span>
           <svg
             className="w-5 h-5"
             aria-hidden="true"
