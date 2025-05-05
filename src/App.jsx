@@ -40,7 +40,7 @@ function App() {
               </Reveal>
             </div>
 
-            <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
+            <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[8px]  text-center w-fit mx-5">
               <Reveal4>
                 <b>full•stack de•vel•op•er</b>
               </Reveal4>
@@ -103,7 +103,7 @@ function App() {
           </a>
           <a href="mailto:aarmon5@gmail.com">
            
-          <i class="devicon-blazor-original"></i>
+          <i className="devicon-blazor-original"></i>
           
           </a>
         </div>
