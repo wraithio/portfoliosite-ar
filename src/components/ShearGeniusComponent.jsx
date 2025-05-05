@@ -50,9 +50,9 @@ const ShearGeniusComponent = () => {
                   appointments with barbers in-app
                 </li>
               </Reveal3>
-              <Reveal1>
+              <Reveal>
                 <li>Leading a small team in fullstack development</li>
-              </Reveal1>
+              </Reveal>
               <Reveal4>
                 <li>Virtual barber with Deepseek R1.</li>
               </Reveal4>
