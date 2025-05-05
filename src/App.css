@@ -35,7 +35,7 @@
 }
 
 i{
-  font-size: 60px;
+  font-size: 100px;
 }
 
 @media screen and (max-width:900px){
@@ -102,3 +102,41 @@ i{
   transform: rotateX(-90deg) translateZ(100px);
   background-color: var(--hue-6-transparent);
 } */
+
+@keyframes loop-scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-100%); }
+}
+
+@keyframes loop-scroll-reverse {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(0); }
+}
+
+
+.group {
+  display: flex;
+  gap: 5rem;
+  padding-right: 5rem;
+  will-change: transform;
+  animation: loop-scroll 10s linear infinite;
+
+}
+
+.group-reverse {
+  display: flex;
+  gap: 5rem;
+  padding-right: 5rem;
+  will-change: transform;
+  animation: loop-scroll-reverse 10s linear infinite;
+}
+
+.animate-loop-scroll{
+  overflow: hidden;
+  max-width: 100%;
+  display: flex;
+  margin: 0 auto;
+  /* &:hover .group{
+    animation-play-state: paused;
+  } */
+}

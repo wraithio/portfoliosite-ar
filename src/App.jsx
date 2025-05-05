@@ -21,45 +21,45 @@ function App() {
       <section>
         <SplashComponent />
       </section>
-      <ExpComponent />
+
+      <ExpComponent/>
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
       <div className="md:min-h-[60vh] min-h-[40vh] flex place-items-center relative mt-4">
-
         <div className="flex flex-col">
           <div className="flex justify-center relative">
-        <div className="absolute top-0 md:right-[15%] right-0">
-          <Reveal>
-            <div className="w-[150px] h-[150px] flex place-items-center justify-center">
-              <img
-                src="/dotgrid.png"
-                alt="dot grid"
-                className="w-20 animate-[ping_3s_infinite_linear]"
-              />
+            <div className="absolute top-0 md:right-[15%] right-0">
+              <Reveal>
+                <div className="w-[150px] h-[150px] flex place-items-center justify-center">
+                  <img
+                    src="/dotgrid.png"
+                    alt="dot grid"
+                    className="w-20 animate-[ping_3s_infinite_linear]"
+                  />
+                </div>
+              </Reveal>
             </div>
-          </Reveal>
-        </div>
 
-        
-          <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
-            <Reveal4>
-              <b>full•stack de•vel•op•er</b>
-            </Reveal4>
-            <Reveal3>
-              <div className="flex gap-1">
-                <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
-                <p className="text-emerald-200">noun</p>
-              </div>
-            </Reveal3>
-            <Reveal2>
-              <h4 className="text-left">
-                {" "}
-                1. a software engineer who can design, build, and maintain both
-                the front-end and back-end of a web application or website
-              </h4>
-            </Reveal2>
-          </div>
+            <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
+              <Reveal4>
+                <b>full•stack de•vel•op•er</b>
+              </Reveal4>
+              <Reveal3>
+                <div className="flex gap-1">
+                  <p className="italic">[ fo͝ol-stak dəˈveləpər ]</p>
+                  <p className="text-emerald-200">noun</p>
+                </div>
+              </Reveal3>
+              <Reveal2>
+                <h4 className="text-left">
+                  {" "}
+                  1. a software engineer who can design, build, and maintain
+                  both the front-end and back-end of a web application or
+                  website
+                </h4>
+              </Reveal2>
             </div>
+          </div>
           {/* <CubeComponent/> */}
           <Reveal>
             <div className="flex justify-center">
@@ -73,7 +73,7 @@ function App() {
         </div>
       </div>
 
-      <ShearGeniusComponent />
+      <ShearGeniusComponent/>
 
       {/* <section>
           <div>
@@ -86,15 +86,15 @@ function App() {
           </div>
         </section> */}
 
-        <CardsComponent />
-     
+      <CardsComponent />
+
       <section className="mx-24 my-24">
         <Reveal>
           <h2 className="text-5xl mb-2" id="contact">
             Connect With Me
           </h2>
         </Reveal>
-        <div className="flex gap-3">
+        <div className="flex gap-3 text-base">
           <a href="https://github.com/wraithio">
             <i className="devicon-github-original text-white"></i>
           </a>
@@ -102,7 +102,9 @@ function App() {
             <i className="devicon-linkedin-plain text-white"></i>
           </a>
           <a href="mailto:aarmon5@gmail.com">
-            <img src="/mail.svg" alt="mail icon" className="w-16" />
+           
+          <i class="devicon-blazor-original"></i>
+          
           </a>
         </div>
         <div className="flex gap-1">
