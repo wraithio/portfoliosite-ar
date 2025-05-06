@@ -117,14 +117,12 @@ function App() {
             <h3 className="text-xl text-emerald-200 cursor-pointer">here</h3>
           </a>
         </div>
-        <Reveal>
-          <div className="flex flex-col text-3xl my-2">
-            <p>Aaron Robinson</p>
-            <p>aarmon5@gmail.com</p>
-            <p>&#40;916&#41;895-3713</p>
 
-          </div>
-        </Reveal>
+        <div className="flex flex-col text-3xl my-2">
+          <p>Aaron Robinson</p>
+          <p>aarmon5@gmail.com</p>
+          <p>&#40;916&#41;895-3713</p>
+        </div>
       </section>
       <FooterComponent />
     </div>
