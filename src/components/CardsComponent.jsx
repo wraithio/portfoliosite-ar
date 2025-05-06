@@ -62,7 +62,7 @@ const CardsComponent = () => {
             Rain Check
           </h5>
           <i className="devicon-javascript-plain colored text-4xl"></i>
-          <i className="devicon-nextjs-original-wordmark colored text-4xl"></i>
+          <i className="devicon-nextjs-original-wordmark text-4xl"></i>
         </div>
 
         <p className="font-normal text-gray-400">

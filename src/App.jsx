@@ -14,7 +14,7 @@ import CardsComponent from "./components/CardsComponent";
 function App() {
   return (
     <div className="min-h-screen text-white font-[Raleway] relative z-0">
-      <div className="relative z-30">
+      <div className="relative z-50">
         <NavbarComponent />
       </div>
 
@@ -22,7 +22,7 @@ function App() {
         <SplashComponent />
       </section>
 
-      <ExpComponent/>
+      <ExpComponent />
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
       <div className="md:min-h-[60vh] min-h-[40vh] flex place-items-center relative mt-4">
@@ -40,7 +40,7 @@ function App() {
               </Reveal>
             </div>
 
-            <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[8px]  text-center w-fit mx-5">
+            <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
               <Reveal4>
                 <b>full•stack de•vel•op•er</b>
               </Reveal4>
@@ -73,7 +73,7 @@ function App() {
         </div>
       </div>
 
-      <ShearGeniusComponent/>
+      <ShearGeniusComponent />
 
       {/* <section>
           <div>
@@ -102,9 +102,7 @@ function App() {
             <i className="devicon-linkedin-plain text-white"></i>
           </a>
           <a href="mailto:aarmon5@gmail.com">
-           
-          <i className="devicon-blazor-original"></i>
-          
+            <i className="devicon-blazor-original"></i>
           </a>
         </div>
         <div className="flex gap-1">
@@ -119,6 +117,14 @@ function App() {
             <h3 className="text-xl text-emerald-200 cursor-pointer">here</h3>
           </a>
         </div>
+        <Reveal>
+          <div className="flex flex-col text-3xl my-2">
+            <p>Aaron Robinson</p>
+            <p>aarmon5@gmail.com</p>
+            <p>&#40;916&#41;895-3713</p>
+
+          </div>
+        </Reveal>
       </section>
       <FooterComponent />
     </div>

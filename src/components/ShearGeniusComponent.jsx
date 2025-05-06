@@ -38,23 +38,23 @@ const ShearGeniusComponent = () => {
           <div className="w-[90%] p-4">
             <div className="grid grid-rows-[repeat(2,auto)] grid-cols-2 md:text-2xl text-sm gap-2">
               <Reveal2>
-                <li>
+              <li className="list-item list-disc list-inside">
                   Created a database for login functionality, account
                   information, schedule tracking, and media posts with SQL,
                   hosted on Azure
                 </li>
               </Reveal2>
               <Reveal3>
-                <li>
+              <li className="list-item list-disc list-inside">
                   Allows users to create, save, comment on posts and schedule
                   appointments with barbers in-app
                 </li>
               </Reveal3>
               <Reveal>
-                <li>Leading a small team in fullstack development</li>
+              <li className="list-item list-disc list-inside">Leading a small team in fullstack development</li>
               </Reveal>
               <Reveal4>
-                <li>Virtual barber with Deepseek R1.</li>
+              <li className="list-item list-disc list-inside">Virtual barber with Deepseek R1.</li>
               </Reveal4>
             </div>
           </div>

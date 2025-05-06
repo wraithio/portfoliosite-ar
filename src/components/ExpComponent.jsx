@@ -13,8 +13,6 @@ const ExpComponent = () => {
           <RevealFull>
             <div className="relative flex flex-col gap-3 z-30">
               <h3 className="text-lg sm:block hidden">Languages</h3>
-              {/* ddddddddddddddddddddddddddddddddddddddd */}
-
               <section className="animate-loop-scroll">
                 <div className="group">
                   <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-typescript-plain colored cursor-pointer"></i>
