@@ -14,7 +14,7 @@ Requirements
 vercel: [here](https://aaronrobinsondev.vercel.app/)
 github: [here](https://github.com/wraithio/portfoliosite-ar)
 
-Peer Review: 
+Peer Review: Juan Heredia: "Really pretty looking, the feel of the website is really slick, my only real complain is that the projects cards look too squished on tablet, and also mix with the background on mobile"
 
 
 
