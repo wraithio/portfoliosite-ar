@@ -116,14 +116,16 @@ function App() {
             className="cursor-pointer w-fit"
             target="_blank"
           >
-            <h3 className="text-xl hover:text-emerald-300 text-emerald-200 cursor-pointer">here</h3>
+            <h3 className="text-xl hover:text-emerald-300 text-emerald-200 cursor-pointer">
+              here
+            </h3>
           </a>
         </div>
 
         <div className="flex flex-col text-3xl my-4">
           <p>Aaron Robinson</p>
           <p>aarmon5@gmail.com</p>
-          <p>&#40;916&#41;895-3713</p>
+          <p>&#40;209&#41;920-7107</p>
         </div>
       </section>
       <FooterComponent />
