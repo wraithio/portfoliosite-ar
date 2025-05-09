@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Card } from "flowbite-react";
 
 const CardsComponent = () => {
@@ -7,7 +7,6 @@ const CardsComponent = () => {
   const [hover3, setHover3] = useState(false);
   return (
     <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center mt-8 md:gap-2 gap-12">
-    
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Vision Images"

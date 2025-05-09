@@ -10,10 +10,12 @@ import { Reveal3 } from "./components/Reveal3";
 import { Reveal4 } from "./components/Reveal4";
 import ShearGeniusComponent from "./components/ShearGeniusComponent";
 import CardsComponent from "./components/CardsComponent";
+import CursorComponent from "./components/CursorComponent";
 
 function App() {
   return (
     <div className="min-h-screen text-white font-[Raleway] relative z-0">
+      {/* <CursorComponent/> */}
       <div className="relative z-50">
         <NavbarComponent />
       </div>
@@ -110,15 +112,15 @@ function App() {
             <h3 className="text-xl">view my resume</h3>
           </Reveal2>
           <a
-            href="https://tr.ee/C9SrLCD8f7"
+            href="/public/resume2025SD2.pdf"
             className="cursor-pointer w-fit"
             target="_blank"
           >
-            <h3 className="text-xl text-emerald-200 cursor-pointer">here</h3>
+            <h3 className="text-xl hover:text-emerald-300 text-emerald-200 cursor-pointer">here</h3>
           </a>
         </div>
 
-        <div className="flex flex-col text-3xl my-2">
+        <div className="flex flex-col text-3xl my-4">
           <p>Aaron Robinson</p>
           <p>aarmon5@gmail.com</p>
           <p>&#40;916&#41;895-3713</p>

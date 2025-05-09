@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const NavbarComponent = () => {
   const[mobile,setMobile] = useState(false)

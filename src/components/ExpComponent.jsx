@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import { Reveal } from "./Reveal";
 import { Reveal2 } from "./Reveal2";
-import { Reveal4 } from "./Reveal4";
+// import { Reveal4 } from "./Reveal4";
 import { Reveal3 } from "./Reveal3";
 import { RevealFull } from "./RevealFull";
 
