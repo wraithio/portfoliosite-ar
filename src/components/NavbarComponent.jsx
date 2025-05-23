@@ -3,7 +3,7 @@ import { useState } from "react";
 const NavbarComponent = () => {
   const[mobile,setMobile] = useState(false)
   return (
-    <nav className="fixed top-0 overflow-hidden bg-gradient-to-t from-transparent to-black w-full backdrop-blur-[1px]">
+    <nav className="fixed top-0 overflow-hidden bg-black/25 from-transparent to-black w-full backdrop-blur-[3px]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <img src="/insigoutline.png" alt="logo" className="w-16" />
         <button
@@ -36,7 +36,7 @@ const NavbarComponent = () => {
             <li className="m-0">
               <a
                 href="#"
-                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
+                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-[bounce_1s]" onClick={() => setMobile(!mobile)}
               >
                 Home
               </a>
@@ -44,7 +44,7 @@ const NavbarComponent = () => {
             <li>
               <a
                 href="#about"
-                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
+                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-[bounce_1s]" onClick={() => setMobile(!mobile)}
               >
                 About
               </a>
@@ -52,7 +52,7 @@ const NavbarComponent = () => {
             <li>
               <a
                 href="#work"
-                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
+                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-[bounce_1s]" onClick={() => setMobile(!mobile)}
               >
                 Work
               </a>
@@ -60,7 +60,7 @@ const NavbarComponent = () => {
             <li>
               <a
                 href="#contact"
-                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline"
+                className="block py-2 px-3 text-white rounded-sm md:border-0 md:p-0 hover:text-emerald-200 hover:shadow-xl hover:animate-bounce hover:underline" onClick={() => setMobile(!mobile)}
               >
                 Contact
               </a>

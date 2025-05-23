@@ -13,6 +13,7 @@ const ExpComponent = () => {
           <RevealFull>
             <div className="relative flex flex-col gap-3 z-30">
               <h3 className="text-lg sm:block hidden">Languages</h3>
+              <h3 className="text-2xl sm:hidden block">Tech Stack</h3>
               <section className="animate-loop-scroll">
                 <div className="group">
                   <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-typescript-plain colored cursor-pointer"></i>
@@ -84,7 +85,7 @@ const ExpComponent = () => {
       <div className="xl:w-[50%]">
         <Reveal>
           <div className="flex flex-col gap-3">
-            <h3 className="text-2xl md:block hidden">Education</h3>
+            <h3 className="md:text-lg text-2xl">Education</h3>
             <Reveal2>
               <div>
                 <h3 className="md:text-2xl text-base">

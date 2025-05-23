@@ -35,8 +35,8 @@ const ShearGeniusComponent = () => {
             </div>
           </Reveal>
 
-          <div className="w-[90%] p-4">
-            <div className="grid grid-rows-[repeat(2,auto)] grid-cols-2 md:text-2xl text-sm gap-2">
+          <div className="md:w-[90%] p-4">
+            <div className="md:grid grid-rows-[repeat(2,auto)] grid-cols-2 md:text-2xl text-lg gap-2">
               <Reveal2>
               <li className="list-item list-disc list-inside">
                   Created a database for login functionality, account

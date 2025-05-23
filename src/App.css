@@ -7,7 +7,7 @@
 }
 
 .bg{
-  background-image: url("/sheargenius-banner-editedcopy.png");
+  background-image: url("/sheargenius-banner-editedcopy.png?format=webp&rel=preload");
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
@@ -119,7 +119,7 @@ i{
   gap: 5rem;
   padding-right: 5rem;
   will-change: transform;
-  animation: loop-scroll 10s linear infinite;
+  animation: loop-scroll 8s linear infinite;
 
 }
 
@@ -128,7 +128,7 @@ i{
   gap: 5rem;
   padding-right: 5rem;
   will-change: transform;
-  animation: loop-scroll-reverse 10s linear infinite;
+  animation: loop-scroll-reverse 8s linear infinite;
 }
 
 .animate-loop-scroll{

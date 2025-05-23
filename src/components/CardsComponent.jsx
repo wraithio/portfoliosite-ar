@@ -6,11 +6,11 @@ const CardsComponent = () => {
   const [hover2, setHover2] = useState(false);
   const [hover3, setHover3] = useState(false);
   return (
-    <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center mt-8 md:gap-2 gap-12">
+    <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center md:mt-8 mt-5 md:gap-2 gap-12 md:mx-0 mx-5">
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Vision Images"
-        imgSrc={hover ? "/redesign2.png" : "redesign.png"}
+        imgSrc={hover ? "/redesign2.png?format=webp&rel=preload" : "redesign.png?format=webp&rel=preload"}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >
@@ -32,7 +32,7 @@ const CardsComponent = () => {
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Meaningful alt text for an image that is not purely decorative"
-        imgSrc={hover2 ? "/cookware2.png" : "/cookware.png"}
+        imgSrc={hover2 ? "/cookware2.png?format=webp&rel=preload" : "/cookware.png?format=webp&rel=preload"}
         onMouseEnter={() => setHover2(true)}
         onMouseLeave={() => setHover2(false)}
       >
@@ -52,7 +52,7 @@ const CardsComponent = () => {
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Weather application"
-        imgSrc={hover3 ? "/weatherapp2.png" : "/weatherapp.png"}
+        imgSrc={hover3 ? "/weatherapp2.png?format=webp&rel=preload" : "/weatherapp.png?format=webp&rel=preload"}
         onMouseEnter={() => setHover3(true)}
         onMouseLeave={() => setHover3(false)}
       >

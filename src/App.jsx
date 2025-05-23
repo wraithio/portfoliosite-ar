@@ -42,7 +42,7 @@ function App() {
               </Reveal>
             </div>
 
-            <div className="grid grid-cols-[auto_auto_auto] gap-1 text-[10px]  text-center w-fit mx-5">
+            <div className="md:grid grid-cols-[auto_auto_auto] gap-1 text-[12px]  text-center w-fit mx-5">
               <Reveal4>
                 <b>full•stack de•vel•op•er</b>
               </Reveal4>
@@ -90,20 +90,23 @@ function App() {
 
       <CardsComponent />
 
-      <section className="mx-24 my-24">
+      <section className="md:mx-24 mx-5 my-24">
         <Reveal>
           <h2 className="text-5xl mb-2" id="contact">
             Connect With Me
           </h2>
         </Reveal>
         <div className="flex gap-3 text-base">
-          <a href="https://github.com/wraithio">
+          <a href="https://github.com/wraithio" rel="aaron robinson github">
             <i className="devicon-github-original text-white"></i>
           </a>
-          <a href="https://www.linkedin.com/in/aaron-robinson-dev/">
+          <a
+            href="https://www.linkedin.com/in/aaron-robinson-dev/"
+            rel="aaron robinson linkedIn"
+          >
             <i className="devicon-linkedin-plain text-white"></i>
           </a>
-          <a href="mailto:aarmon5@gmail.com">
+          <a href="mailto:aarmon5@gmail.com" rel="email to aaron robinson">
             <i className="devicon-blazor-original"></i>
           </a>
         </div>
@@ -112,8 +115,11 @@ function App() {
             <h3 className="text-xl">view my resume</h3>
           </Reveal2>
           <a
+            // href="https://tr.ee/C9SrLCD8f7"
             href="/public/resume2025SD2.pdf"
+            download="aaronrobinsonresume"
             className="cursor-pointer w-fit"
+            rel="aaron robinson resume"
             target="_blank"
           >
             <h3 className="text-xl hover:text-emerald-300 text-emerald-200 cursor-pointer">
@@ -125,7 +131,7 @@ function App() {
         <div className="flex flex-col text-3xl my-4">
           <p>Aaron Robinson</p>
           <p>aarmon5@gmail.com</p>
-          <p>&#40;209&#41;920-7107</p>
+          <p>+2099207107</p>
         </div>
       </section>
       <FooterComponent />
