@@ -16,7 +16,7 @@ const SplashComponent = () => {
             className="w-10 animate-bounce"
           />
           <h3 className="md:text-3xl flex md:gap-2 gap-1">
-            Hi there, I'm <p className="text-emerald-200 font-bold">Aaron</p>.
+            Hi, I'm <p className="text-emerald-200 font-bold">Aaron</p>.
           </h3>
         </div>
       </Reveal2>
