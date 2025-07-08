@@ -52,7 +52,7 @@ const CardsComponent = () => {
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Weather application"
-        imgSrc={hover3 ? "/weatherapp2.png?format=webp&rel=preload" : "/weatherapp.png?format=webp&rel=preload"}
+        imgSrc={"/weatherapp.png?format=webp&rel=preload"}
         onMouseEnter={() => setHover3(true)}
         onMouseLeave={() => setHover3(false)}
       >

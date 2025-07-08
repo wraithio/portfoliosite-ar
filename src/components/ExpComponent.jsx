@@ -1,4 +1,5 @@
 // import React from "react";
+import { useState } from "react";
 import { Reveal } from "./Reveal";
 import { Reveal2 } from "./Reveal2";
 // import { Reveal4 } from "./Reveal4";
@@ -6,30 +7,171 @@ import { Reveal3 } from "./Reveal3";
 import { RevealFull } from "./RevealFull";
 
 const ExpComponent = () => {
+  const [hover, setHover] = useState(false);
+  const [hover2, setHover2] = useState(false);
   return (
-    <div className="flex xl:flex-row xl:gap-4 gap-8 flex-col justify-center md:py-14 mx-5" id="about">
+    <div
+      className="flex xl:flex-row xl:gap-4 gap-8 flex-col justify-center md:py-14 mx-5"
+      id="about"
+    >
       <div className="xl:w-[50%]">
         <div className="flex flex-col gap-4">
           <RevealFull>
             <div className="relative flex flex-col gap-3 z-30">
               <h3 className="text-lg sm:block hidden">Languages</h3>
               <h3 className="text-2xl sm:hidden block">Tech Stack</h3>
-              <section className="animate-loop-scroll">
+              <section
+                className="animate-loop-scroll"
+                onMouseEnter={() => setHover(true)}
+                onMouseLeave={() => setHover(false)}
+              >
                 <div className="group">
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-typescript-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-javascript-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-csharp-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-azuresqldatabase-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-html5-plain-wordmark colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-css3-plain-wordmark colored cursor-pointer"></i>
+                  <i className="custom-hover-effect devicon-typescript-plain colored cursor-pointer relative">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        typescript
+                      </p>
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-javascript-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        javascript
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-csharp-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        CSharp
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-azuresqldatabase-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        SQL server
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-html5-plain-wordmark colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        HTML
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-css3-plain-wordmark colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Cascading Style Sheets
+                      </p>{" "}
+                    </div>
+                  </i>
                 </div>
                 <div aria-hidden className="group">
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-typescript-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-javascript-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-csharp-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-azuresqldatabase-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-html5-plain-wordmark colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-css3-plain-wordmark colored cursor-pointer"></i>
+                  <i className="custom-hover-effect devicon-typescript-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        typescript
+                      </p>
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-javascript-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        javascript
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-csharp-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        CSharp
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-azuresqldatabase-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        SQL server
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-html5-plain-wordmark colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        HTML
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-css3-plain-wordmark colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Cascading Style Sheets
+                      </p>{" "}
+                    </div>
+                  </i>
                 </div>
               </section>
             </div>
@@ -40,46 +182,187 @@ const ExpComponent = () => {
                 Frameworks/Libraries/Services
               </h3>
 
-              <section className="animate-loop-scroll">
+              <section
+                className="animate-loop-scroll"
+                onMouseEnter={() => setHover2(true)}
+                onMouseLeave={() => setHover2(false)}
+              >
                 <div className="group-reverse">
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-nextjs-original-wordmark cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-react-original-wordmark colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-tailwindcss-original colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-framermotion-original cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-bootstrap-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-amazonwebservices-plain-wordmark colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-azure-plain colored cursor-pointer"></i>
+                  <i className="custom-hover-effect devicon-nextjs-original-wordmark cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        next.js
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-react-original colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        React
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-tailwindcss-original colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway] overflow-visible`}
+                      >
+                        Tailwind CSS
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-framermotion-original cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Framer
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-bootstrap-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Bootstrap
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-amazonwebservices-plain-wordmark colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Amazon AWS
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-azure-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Microsoft Azure
+                      </p>{" "}
+                    </div>
+                  </i>
                 </div>
 
                 <div aria-hidden className="group-reverse">
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-nextjs-original-wordmark cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-react-original-wordmark colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-tailwindcss-original colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-framermotion-original cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-bootstrap-plain colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-amazonwebservices-plain-wordmark colored cursor-pointer"></i>
-                  <i className="py-1 hover:scale-110 transition-transform duration-300 hover:[&~*_.animate-loop-scroll]:[animation-play-state:paused] devicon-azure-plain colored cursor-pointer"></i>
+                  <i className="custom-hover-effect devicon-nextjs-original-wordmark cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        next.js
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-react-original colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        React
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-tailwindcss-original colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Tailwind CSS
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-framermotion-original cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Framer
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-bootstrap-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Bootstrap
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-amazonwebservices-plain-wordmark colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Amazon AWS
+                      </p>{" "}
+                    </div>
+                  </i>
+                  <i className="custom-hover-effect devicon-azure-plain colored cursor-pointer">
+                    <div className="h-10">
+                      {" "}
+                      <p
+                        className={`${
+                          hover2 ? "block" : "hidden"
+                        } text-gray-300 text-center text-sm font-[Raleway]`}
+                      >
+                        Microsoft Azure
+                      </p>{" "}
+                    </div>
+                  </i>
                 </div>
               </section>
-
-              {/* <div className="grid grid-rows-3 grid-cols-2 w-fit gap-3">
-                <i className="devicon-nextjs-original-wordmark"></i>
-                <i className="devicon-react-original-wordmark colored"></i>
-                <i className="devicon-tailwindcss-original colored"></i>
-                <i className="devicon-framermotion-original"></i>
-                <i className="devicon-bootstrap-plain colored"></i>
-              </div> */}
             </div>
           </RevealFull>
-          {/* <Reveal3>
-            <div className="flex flex-col gap-3">
-              <h3 className="text-lg sm:block hidden">Services</h3>
-              <div className="grid grid-rows-2 w-fit gap-3">
-                <i className="devicon-amazonwebservices-plain-wordmark colored"></i>
-                <i className="devicon-azure-plain colored"></i>
-              </div>
-            </div>
-          </Reveal3> */}
         </div>
       </div>
       <div className="xl:w-[50%]">
