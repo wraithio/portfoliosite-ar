@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Reveal } from "./Reveal";
 import { Reveal2 } from "./Reveal2";
-// import { Reveal4 } from "./Reveal4";
+import { Reveal4 } from "./Reveal4";
 import { Reveal3 } from "./Reveal3";
 import { RevealFull } from "./RevealFull";
 
@@ -27,149 +27,161 @@ const ExpComponent = () => {
               >
                 <div className="group">
                   <i className="custom-hover-effect devicon-typescript-plain colored cursor-pointer relative">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        typescript
-                      </p>
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Typescript
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-javascript-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        javascript
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Javascript
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-csharp-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        CSharp
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal3>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            CSharp
+                          </p>
+                        </Reveal3>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-azuresqldatabase-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        SQL server
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal4>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            SQL Server
+                          </p>
+                        </Reveal4>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-html5-plain-wordmark colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        HTML
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            HTML
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-css3-plain-wordmark colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Cascading Style Sheets
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Cascading Style Sheets
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                 </div>
                 <div aria-hidden className="group">
                   <i className="custom-hover-effect devicon-typescript-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        typescript
-                      </p>
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Typescript
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-javascript-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        javascript
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Javascript
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-csharp-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        CSharp
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal3>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            CSharp
+                          </p>
+                        </Reveal3>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-azuresqldatabase-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        SQL server
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal4>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            SQL Server
+                          </p>
+                        </Reveal4>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-html5-plain-wordmark colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        HTML
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            HTML
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-css3-plain-wordmark colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Cascading Style Sheets
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Cascading Style Sheets
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                 </div>
@@ -189,176 +201,218 @@ const ExpComponent = () => {
               >
                 <div className="group-reverse">
                   <i className="custom-hover-effect devicon-nextjs-original-wordmark cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        next.js
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            next.js
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-react-original colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        React
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            React
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-tailwindcss-original colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway] overflow-visible`}
-                      >
-                        Tailwind CSS
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal3>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Tailwind CSS
+                          </p>
+                        </Reveal3>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-framermotion-original cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Framer
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal4>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Framer
+                          </p>
+                        </Reveal4>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-bootstrap-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Bootstrap
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Bootstrap
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-amazonwebservices-plain-wordmark colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Amazon AWS
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Amazon AWS
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-azure-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Microsoft Azure
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal3>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Microsoft Azure
+                          </p>
+                        </Reveal3>
+                      )}
                     </div>
                   </i>
+                  <div className="w-[100px]">
+                  <img src="/sendgrid.png" alt="send grid logo" className="w-[100px] custom-hover-effect cursor-pointer" />
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal4>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            SendGrid
+                          </p>
+                        </Reveal4>
+                      )}
+                    </div>
+                  </div>
                 </div>
 
                 <div aria-hidden className="group-reverse">
                   <i className="custom-hover-effect devicon-nextjs-original-wordmark cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        next.js
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            next.js
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-react-original colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        React
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            React
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-tailwindcss-original colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Tailwind CSS
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal3>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Tailwind CSS
+                          </p>
+                        </Reveal3>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-framermotion-original cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Framer
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal4>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Framer
+                          </p>
+                        </Reveal4>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-bootstrap-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Bootstrap
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Bootstrap
+                          </p>
+                        </Reveal>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-amazonwebservices-plain-wordmark colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Amazon AWS
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal2>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Amazon AWS
+                          </p>
+                        </Reveal2>
+                      )}
                     </div>
                   </i>
                   <i className="custom-hover-effect devicon-azure-plain colored cursor-pointer">
-                    <div className="h-10">
-                      {" "}
-                      <p
-                        className={`${
-                          hover2 ? "block" : "hidden"
-                        } text-gray-300 text-center text-sm font-[Raleway]`}
-                      >
-                        Microsoft Azure
-                      </p>{" "}
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal3>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            Microsoft Azure
+                          </p>
+                        </Reveal3>
+                      )}
                     </div>
                   </i>
+                    <div className="w-[100px]">
+                  <img src="/sendgrid.png" alt="send grid logo" className="w-[100px] h-24 custom-hover-effect cursor-pointer" />
+                    <div className="h-10 flex justify-center mt-1">
+                      {hover2 && (
+                        <Reveal4>
+                          <p
+                            className={`text-gray-300 text-center text-sm font-[Raleway]`}
+                          >
+                            SendGrid
+                          </p>
+                        </Reveal4>
+                      )}
+                    </div>
+                  </div>
                 </div>
               </section>
             </div>
