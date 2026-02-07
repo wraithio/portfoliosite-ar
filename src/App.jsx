@@ -116,7 +116,7 @@ function App() {
           </Reveal2>
           <a
             // href="https://tr.ee/C9SrLCD8f7"
-            href="/resume2025SD3.pdf"
+            href="/ARresume2026.pdf"
             download="aaron-robinsonresume"
             className="cursor-pointer w-fit"
             rel="aaron robinson resume"

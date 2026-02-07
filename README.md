@@ -26,3 +26,5 @@ Peer Review: Juan Heredia: "Really pretty looking, the feel of the website is re
              scale: { type: "spring", visualDuration: 0.4, bounce: 0.5 },
          }}
         ></motion.div>
+
+Hello 2026, adding updated resume. May this year bring nothing but success and growth.
