@@ -9,15 +9,15 @@ const CardsComponent = () => {
     <div className="flex md:flex-row flex-col justify-evenly md:justify-self-auto justify-self-center md:mt-8 mt-5 md:gap-2 gap-12 md:mx-0 mx-5">
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
-        imgAlt="Vision Images"
+        imgAlt={hover ? "Vision Images 2" : "Vision Images"}
         imgSrc={hover ? "/redesign2.png?format=webp&rel=preload" : "redesign.png?format=webp&rel=preload"}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
       >
         <div className="flex gap-3">
-          <h5 className="text-2xl font-bold tracking-tight text-white">
+          <h3 className="text-2xl font-bold tracking-tight text-white">
             Vision Images
-          </h5>
+          </h3>
           <i className="devicon-javascript-plain colored text-4xl"></i>
           <i className="devicon-css3-plain-wordmark colored text-4xl"></i>
           <i className="devicon-framermotion-original colored text-4xl"></i>
@@ -31,15 +31,15 @@ const CardsComponent = () => {
       
       <Card
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
-        imgAlt="Meaningful alt text for an image that is not purely decorative"
+        imgAlt={hover2 ? "Cookware Website 2" : "Cookware Website"}
         imgSrc={hover2 ? "/cookware2.png?format=webp&rel=preload" : "/cookware.png?format=webp&rel=preload"}
         onMouseEnter={() => setHover2(true)}
         onMouseLeave={() => setHover2(false)}
       >
         <div className="flex gap-2">
-          <h5 className="text-2xl font-bold tracking-tight text-white">
+          <h3 className="text-2xl font-bold tracking-tight text-white">
             Cookware Website
-          </h5>
+          </h3>
           <i className="devicon-react-original-wordmark colored text-4xl"></i>
           <i className="devicon-tailwindcss-original colored text-4xl"></i>
         </div>
@@ -57,9 +57,9 @@ const CardsComponent = () => {
         onMouseLeave={() => setHover3(false)}
       >
         <div className="flex gap-2">
-          <h5 className="text-2xl font-bold tracking-tight text-white">
+          <h3 className="text-2xl font-bold tracking-tight text-white">
             Rain Check
-          </h5>
+          </h3>
           <i className="devicon-javascript-plain colored text-4xl"></i>
           <i className="devicon-nextjs-original-wordmark text-4xl"></i>
         </div>

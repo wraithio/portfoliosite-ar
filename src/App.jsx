@@ -97,16 +97,16 @@ function App() {
           </h2>
         </Reveal>
         <div className="flex gap-3 text-base">
-          <a href="https://github.com/wraithio" rel="aaron robinson github">
+          <a href="https://github.com/wraithio" rel="aaron robinson github" aria-label="Aaron Robinson Github">
+            <span className="hidden">aaron robinson github</span>
             <i className="devicon-github-original text-white"></i>
           </a>
-          <a
-            href="https://www.linkedin.com/in/aaron-robinson-dev/"
-            rel="aaron robinson linkedIn"
-          >
+          <a href="https://www.linkedin.com/in/aaron-robinson-dev/" rel="aaron robinson linkedIn" aria-label="Aaron Robinson LinkedIn">
+            <span className="hidden">aaron robinson linkedIn</span>
             <i className="devicon-linkedin-plain text-white"></i>
           </a>
-          <a href="mailto:aarmon5@gmail.com" rel="email to aaron robinson">
+          <a href="mailto:aarmon5@gmail.com" rel="email to aaron robinson" aria-label="Email to Aaron Robinson">
+            <span className="hidden">email to aaron robinson linkedIn</span>
             <i className="devicon-blazor-original"></i>
           </a>
         </div>
@@ -129,9 +129,9 @@ function App() {
         </div>
 
         <div className="flex flex-col text-3xl my-4">
-          <p>Aaron Robinson</p>
-          <p>aarmon5@gmail.com</p>
-          <p>+2099207107</p>
+          <h4>Aaron Robinson</h4>
+          <h4>aarmon5@gmail.com</h4>
+          <h4>+2099207107</h4>
         </div>
       </section>
       <FooterComponent />

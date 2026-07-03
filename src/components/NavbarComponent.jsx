@@ -5,7 +5,7 @@ const NavbarComponent = () => {
   return (
     <nav className="fixed top-0 overflow-hidden bg-black/25 from-transparent to-black w-full backdrop-blur-[3px]">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <img src="/insigoutline.png" alt="logo" className="w-16" />
+        <img src="/insigoutline.png" alt="aaron robinson dev logo" className="w-16" />
         <button
           data-collapse-toggle="navbar-default"
           type="button"

@@ -22,15 +22,12 @@ const ShearGeniusComponent = () => {
         <div className="flex justify-center flex-col  md:mx-24 mx-5">
           <Reveal>
             <div className="flex sm:flex-row flex-col sm:gap-3">
-              <div>
-
               <h2 className="sm:text-5xl text-3xl mb-2">ShearGenius</h2>
-              </div>
-              <div className="flex gap-2">
 
-              <i className="devicon-typescript-plain sm:text-5xl text-2xl"></i>
-              <i className="devicon-azure-plain sm:text-5xl text-2xl"></i>
-              <i className="devicon-nextjs-original-wordmark sm:text-5xl text-2xl"></i>
+              <div className="flex gap-2">
+                <i className="devicon-typescript-plain sm:text-5xl text-2xl"></i>
+                <i className="devicon-azure-plain sm:text-5xl text-2xl"></i>
+                <i className="devicon-nextjs-original-wordmark sm:text-5xl text-2xl"></i>
               </div>
             </div>
           </Reveal>
@@ -38,23 +35,31 @@ const ShearGeniusComponent = () => {
           <div className="md:w-[90%] p-4">
             <div className="md:grid grid-rows-[repeat(2,auto)] grid-cols-2 md:text-2xl text-lg gap-2">
               <Reveal2>
-              <li className="list-item list-disc list-inside">
-                  Created a database for login functionality, account
-                  information, schedule tracking, and media posts with SQL,
-                  hosted on Azure
-                </li>
+                <ul>
+                  <li className="list-item list-disc list-inside">
+                    Created a database for login functionality, account
+                    information, schedule tracking, and media posts with SQL,
+                    hosted on Azure
+                  </li>
+                </ul>
               </Reveal2>
               <Reveal3>
-              <li className="list-item list-disc list-inside">
-                  Allows users to create, save, comment on posts and schedule
-                  appointments with barbers in-app
-                </li>
+                <ul>
+                  <li className="list-item list-disc list-inside">
+                    Allows users to create, save, comment on posts and schedule
+                    appointments with barbers in-app
+                  </li>
+                </ul>
               </Reveal3>
               <Reveal>
-              <li className="list-item list-disc list-inside">Leading a small team in fullstack development</li>
+                <ul>
+                  <li className="list-item list-disc list-inside">Leading a small team in fullstack development</li>
+                </ul>
               </Reveal>
               <Reveal4>
-              <li className="list-item list-disc list-inside">Virtual barber with Deepseek R1.</li>
+                <ul>
+                  <li className="list-item list-disc list-inside">Virtual barber with Deepseek R1.</li>
+                </ul>
               </Reveal4>
             </div>
           </div>

@@ -15,21 +15,20 @@ const SplashComponent = () => {
             alt="wave emoji"
             className="w-10 animate-bounce"
           />
-          <h3 className="md:text-3xl flex md:gap-2 gap-1">
+          <h1 className="md:text-3xl flex md:gap-2 gap-1">
             Hi, I'm <p className="text-emerald-200 font-bold">Aaron</p>.
-          </h3>
+          </h1>
         </div>
       </Reveal2>
       <div className="flex text-center flex-col gap-2 mb-24">
         <RevealFull>
-          <h1 className="md:text-6xl text-4xl font-[Cormorant] mx-2 my-4">
+          <h2 className="md:text-6xl text-4xl font-[Cormorant] mx-2 my-4">
             I create <b>art</b> with my mouse and keyboard
-          </h1>
+          </h2>
         </RevealFull>
         <Reveal4>
           <h3 className="md:text-3xl text-lg mx-5">
-            fullstack web developer versed in backend, frontend development
-            and UI/UX Design
+            fullstack web developer versed in backend, frontend development and UI/UX Design
           </h3>
         </Reveal4>
       </div>
