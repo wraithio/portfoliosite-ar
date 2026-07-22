@@ -5,7 +5,7 @@ import { RevealFull } from './RevealFull'
 const WorkExpComponent = () => {
   return (
     <div className="relative md:min-h-[30vh] min-h-[15vh] text-end">
-        <div className="w-80 opacity-30 absolute left-28 bottom-0 z-0">
+        <div className="md:w-80 w-48 opacity-30 absolute md:left-28 bottom-0 z-0">
             <Reveal4>
                 <img src="/codestacklogo.png" alt="Codestack Logo"/>
             </Reveal4>
