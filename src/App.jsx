@@ -11,6 +11,7 @@ import { Reveal4 } from "./components/Reveal4";
 import ShearGeniusComponent from "./components/ShearGeniusComponent";
 import CardsComponent from "./components/CardsComponent";
 import CursorComponent from "./components/CursorComponent";
+import WorkExpComponent from "./components/WorkExpComponent";
 
 function App() {
   return (
@@ -27,7 +28,7 @@ function App() {
       <ExpComponent />
       {/* <svg className="bg-gradient-to-t from-transparent to-black w-full"></svg> */}
 
-      <div className="md:min-h-[60vh] min-h-[40vh] flex place-items-center relative mt-4">
+      <div className="md:min-h-[90vh] min-h-[60vh] flex place-items-center relative mt-4">
         <div className="flex flex-col">
           <div className="flex justify-center relative">
             <div className="absolute top-0 md:right-[15%] right-0">
@@ -42,7 +43,7 @@ function App() {
               </Reveal>
             </div>
 
-            <div className="md:grid grid-cols-[auto_auto_auto] gap-1 text-[12px]  text-center w-fit mx-5">
+            <div className="md:grid grid-cols-[auto_auto_auto] gap-1 text-[12px] text-center w-fit mx-5">
               <Reveal4>
                 <b>full•stack de•vel•op•er</b>
               </Reveal4>
@@ -74,6 +75,8 @@ function App() {
           </Reveal>
         </div>
       </div>
+
+      <WorkExpComponent />
 
       <ShearGeniusComponent />
 

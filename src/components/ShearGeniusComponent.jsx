@@ -10,14 +10,18 @@ const ShearGeniusComponent = () => {
       <svg className="bg-black to-transparent rounded-[50%/100%] rounded-t-none w-full sm:h-[150px] h-[75px]"></svg>
       {/* <svg className="bg-gradient-to-b from-[#181b1b] to-transparent w-full"></svg> */}
 
-      <Reveal3>
-        <img
-          src="/SGsplash.png"
-          alt="shear genius website"
-          className="w-fit px-3"
-          id="work"
-        />
-      </Reveal3>
+      <div className="custom-hover-effect">
+        <a href="https://sheargenius.vercel.app/" target="_blank" title="Visit ShearGenius">
+          <Reveal3>
+            <img
+              src="/SGsplash.png"
+              alt="shear genius website"
+              className="w-fit px-3"
+              id="work"
+              />
+          </Reveal3>
+        </a>
+      </div>
       <div className="backdrop-blur-sm bg-gradient-to-b from-transparent to-black py-3">
         <div className="flex justify-center flex-col  md:mx-24 mx-5">
           <Reveal>

@@ -53,8 +53,6 @@ const CardsComponent = () => {
         className="border-slate-800 xl:max-w-sm md:max-w-[275px] max-w-[450px] bg-black"
         imgAlt="Weather application"
         imgSrc={"/weatherapp.png?format=webp&rel=preload"}
-        onMouseEnter={() => setHover3(true)}
-        onMouseLeave={() => setHover3(false)}
       >
         <div className="flex gap-2">
           <h3 className="text-2xl font-bold tracking-tight text-white">
